@@ -1,0 +1,20 @@
+{
+  "name": "SilveOS",
+  "version": "2.1",
+  "description": "SilveOS.com - Vue based internet operating system or webtop. It provides an environment similar to that of Windows inside web browser.",
+  "permissions": [ 
+	"tabs",
+    "*://silveos.com/*",
+	"webRequest"
+  ],
+  "browser_action": {
+    "default_icon": {
+     "16": "favicon16.png",
+     "32": "favicon32.png"
+	}
+  },
+  "background": {
+    "scripts": [ "background.js" ]
+  },
+  "manifest_version": 2
+}
